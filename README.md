@@ -9,7 +9,7 @@
 
 ### Physically accurate NTSC & VHS analog video artifact emulator
 
-*GPU acceleration · Vertical compare slider · VHS audio simulation · Drag & drop · 30+ formats · Modern dark UI*
+*GPU acceleration · Compare slider · VHS audio simulation · Drag & drop · 30+ formats · Modern dark UI*
 
 <br>
 
