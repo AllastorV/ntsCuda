@@ -2,10 +2,8 @@
 
 # ntsCuda
 
-[![Downloads](https://img.shields.io/github/downloads/AllastorV/ntsCuda/total?style=for-the-badge&color=0969da&logo=github&logoColor=white)](https://github.com/AllastorV/ntsCuda/releases/latest)
 [![Python](https://img.shields.io/badge/Python-3.8%20%E2%80%93%203.11-3776ab?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![CUDA](https://img.shields.io/badge/CUDA-GPU%20Support-76b900?style=for-the-badge&logo=nvidia&logoColor=white)](requirements-cuda.txt)
-[![License](https://img.shields.io/github/license/AllastorV/ntsCuda?style=for-the-badge&color=238636)](LICENSE)
 
 <br>
 
@@ -118,15 +116,6 @@ Clean, dark-themed interface with consistent styling, CUDA status indicator, and
 
 ---
 
-## Demo
-
-<div align="center">
-
-[![Demo](demo.gif)](https://youtu.be/uqT3Z0kfF24)
-
-</div>
-
----
 
 ## Supported Formats
 
