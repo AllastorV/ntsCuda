@@ -17,7 +17,7 @@
 
 <br><br>
 
-Based on [zhuker/ntsc](https://github.com/zhuker/ntsc) · Base Version by [JargeZ/ntscQT](https://github.com/JargeZ/ntscQT) · [MIT License](LICENSE)
+Based on [zhuker/ntsc](https://github.com/zhuker/ntsc) · Base Version [JargeZ/ntscQT](https://github.com/JargeZ/ntscQT) · [MIT License](LICENSE)
 
 </div>
 
