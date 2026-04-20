@@ -1,0 +1,897 @@
+2026-04-20 23:01:24.061 | DEBUG    | app.NtscApp:sync_nt_to_sliders:429 - set <class 'int'> _composite_preemphasis slider to 3
+2026-04-20 23:01:24.061 | DEBUG    | app.NtscApp:sync_nt_to_sliders:429 - set <class 'int'> _vhs_out_sharpen slider to 2
+2026-04-20 23:01:24.061 | DEBUG    | app.NtscApp:sync_nt_to_sliders:429 - set <class 'int'> _vhs_edge_wave slider to 0
+2026-04-20 23:01:24.061 | DEBUG    | app.NtscApp:sync_nt_to_sliders:429 - set <class 'int'> _ringing slider to 0
+2026-04-20 23:01:24.062 | DEBUG    | app.NtscApp:sync_nt_to_sliders:429 - set <class 'int'> _ringing_power slider to 5
+2026-04-20 23:01:24.062 | DEBUG    | app.NtscApp:sync_nt_to_sliders:429 - set <class 'int'> _ringing_shift slider to 0
+2026-04-20 23:01:24.062 | DEBUG    | app.NtscApp:sync_nt_to_sliders:429 - set <class 'int'> _freq_noise_size slider to 0
+2026-04-20 23:01:24.062 | DEBUG    | app.NtscApp:sync_nt_to_sliders:429 - set <class 'int'> _freq_noise_amplitude slider to 1
+2026-04-20 23:01:24.062 | DEBUG    | app.NtscApp:sync_nt_to_sliders:429 - set <class 'int'> _color_bleed_horiz slider to 3
+2026-04-20 23:01:24.062 | DEBUG    | app.NtscApp:sync_nt_to_sliders:429 - set <class 'int'> _color_bleed_vert slider to 5
+2026-04-20 23:01:24.063 | DEBUG    | app.NtscApp:sync_nt_to_sliders:429 - set <class 'int'> _video_chroma_noise slider to 3431
+2026-04-20 23:01:24.063 | DEBUG    | app.NtscApp:sync_nt_to_sliders:429 - set <class 'int'> _video_chroma_phase_noise slider to 19
+2026-04-20 23:01:24.063 | DEBUG    | app.NtscApp:sync_nt_to_sliders:429 - set <class 'int'> _video_chroma_loss slider to 75
+2026-04-20 23:01:24.063 | DEBUG    | app.NtscApp:sync_nt_to_sliders:429 - set <class 'int'> _video_noise slider to 800
+2026-04-20 23:01:24.064 | DEBUG    | app.NtscApp:sync_nt_to_sliders:429 - set <class 'int'> _video_scanline_phase_shift slider to 180
+2026-04-20 23:01:24.064 | DEBUG    | app.NtscApp:sync_nt_to_sliders:429 - set <class 'int'> _video_scanline_phase_shift_offset slider to 3
+2026-04-20 23:01:24.064 | DEBUG    | app.NtscApp:sync_nt_to_sliders:429 - set <class 'int'> _head_switching_speed slider to 0
+2026-04-20 23:01:24.064 | DEBUG    | app.NtscApp:sync_nt_to_sliders:429 - set <class 'bool'> _vhs_head_switching slider to False
+2026-04-20 23:01:24.064 | DEBUG    | app.NtscApp:sync_nt_to_sliders:429 - set <class 'bool'> _color_bleed_before slider to True
+2026-04-20 23:01:24.065 | DEBUG    | app.NtscApp:sync_nt_to_sliders:429 - set <class 'bool'> _enable_ringing2 slider to True
+2026-04-20 23:01:24.065 | DEBUG    | app.NtscApp:sync_nt_to_sliders:429 - set <class 'bool'> _composite_in_chroma_lowpass slider to True
+2026-04-20 23:01:24.065 | DEBUG    | app.NtscApp:sync_nt_to_sliders:429 - set <class 'bool'> _composite_out_chroma_lowpass slider to True
+2026-04-20 23:01:24.065 | DEBUG    | app.NtscApp:sync_nt_to_sliders:429 - set <class 'bool'> _composite_out_chroma_lowpass_lite slider to True
+2026-04-20 23:01:24.065 | DEBUG    | app.NtscApp:sync_nt_to_sliders:429 - set <class 'bool'> _emulating_vhs slider to False
+2026-04-20 23:01:24.066 | DEBUG    | app.NtscApp:sync_nt_to_sliders:429 - set <class 'bool'> _nocolor_subcarrier slider to False
+2026-04-20 23:01:24.066 | DEBUG    | app.NtscApp:sync_nt_to_sliders:429 - set <class 'bool'> _vhs_chroma_vert_blend slider to True
+2026-04-20 23:01:24.066 | DEBUG    | app.NtscApp:sync_nt_to_sliders:429 - set <class 'bool'> _vhs_svideo_out slider to False
+2026-04-20 23:01:24.066 | DEBUG    | app.NtscApp:sync_nt_to_sliders:429 - set <class 'bool'> _output_ntsc slider to True
+2026-04-20 23:01:24.066 | DEBUG    | app.NtscApp:sync_nt_to_sliders:429 - set <class 'bool'> _black_line_cut slider to False
+2026-04-20 23:01:26.386 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] Terminating prev renderer
+2026-04-20 23:01:26.387 | DEBUG    | app.NtscApp:setup_renderer:293 - Terminating prev renderer
+2026-04-20 23:01:26.387 | DEBUG    | app.NtscApp:setup_renderer:299 - Setup first renderer
+2026-04-20 23:01:26.388 | DEBUG    | app.NtscApp:open_video:679 - file: C:\Users\cavas\Desktop\Akame ga Kill 1. Bölüm izle Anizle.mp4
+2026-04-20 23:01:26.429 | DEBUG    | app.NtscApp:open_video:681 - cap: < cv2.VideoCapture 00000201B9ACDD30> isOpened: True
+2026-04-20 23:01:26.430 | DEBUG    | app.NtscApp:open_video:691 - selfinput: {'cap': < cv2.VideoCapture 00000201B9ACDD30>, 'width': 1280, 'height': 720, 'frames_count': 34241, 'orig_fps': 23.97384425422486, 'path': WindowsPath('C:/Users/cavas/Desktop/Akame ga Kill 1. Bölüm izle Anizle.mp4'), 'suffix': '.mp4'}
+2026-04-20 23:01:27.236 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] The image resolution is large. For the best effect, the output height is set to 600
+2026-04-20 23:01:31.789 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _composite_preemphasis to 6.7073
+2026-04-20 23:01:32.547 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _composite_preemphasis to 8.2927
+2026-04-20 23:01:33.667 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _vhs_out_sharpen to 3
+2026-04-20 23:01:35.705 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _vhs_out_sharpen to 4
+2026-04-20 23:01:35.875 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _vhs_out_sharpen to 5
+2026-04-20 23:01:37.483 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _vhs_out_sharpen to 4
+2026-04-20 23:01:37.638 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _vhs_out_sharpen to 3
+2026-04-20 23:01:39.095 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _vhs_edge_wave to 1
+2026-04-20 23:01:39.260 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _vhs_edge_wave to 4
+2026-04-20 23:01:40.627 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _vhs_edge_wave to 5
+2026-04-20 23:01:40.808 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _vhs_edge_wave to 6
+2026-04-20 23:01:41.694 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _black_line_cut to True
+2026-04-20 23:01:42.572 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _black_line_cut to False
+2026-04-20 23:01:43.417 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _black_line_cut to True
+2026-04-20 23:01:44.285 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _black_line_cut to False
+2026-04-20 23:01:46.569 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _vhs_head_switching to True
+2026-04-20 23:01:48.361 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _emulating_vhs to True
+2026-04-20 23:01:50.693 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _video_chroma_phase_noise to 16
+2026-04-20 23:01:50.896 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _video_chroma_phase_noise to 13
+2026-04-20 23:01:51.758 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _video_chroma_phase_noise to 14
+2026-04-20 23:01:51.963 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _video_chroma_phase_noise to 21
+2026-04-20 23:01:52.169 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _video_chroma_phase_noise to 30
+2026-04-20 23:01:52.378 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _video_chroma_phase_noise to 32
+2026-04-20 23:01:52.586 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _video_chroma_phase_noise to 33
+2026-04-20 23:01:53.860 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _video_chroma_loss to 81
+2026-04-20 23:01:54.067 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _video_chroma_loss to 338
+2026-04-20 23:01:54.277 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _video_chroma_loss to 345
+2026-04-20 23:01:54.760 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _video_chroma_loss to 352
+2026-04-20 23:01:54.958 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _video_chroma_loss to 639
+2026-04-20 23:01:55.716 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _video_chroma_loss to 661
+2026-04-20 23:01:55.918 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _video_chroma_loss to 800
+2026-04-20 23:01:58.110 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _video_noise to 809
+2026-04-20 23:01:58.311 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _video_noise to 3352
+2026-04-20 23:01:58.511 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _video_noise to 3738
+2026-04-20 23:01:58.717 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _video_noise to 3892
+2026-04-20 23:02:01.016 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _head_switching_speed to 1
+2026-04-20 23:02:01.218 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _head_switching_speed to 65
+2026-04-20 23:02:01.782 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _head_switching_speed to 66
+2026-04-20 23:02:01.990 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _head_switching_speed to 79
+2026-04-20 23:02:24.278 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _video_noise to 3889
+2026-04-20 23:02:24.485 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _video_noise to 3883
+2026-04-20 23:02:26.995 | DEBUG    | app.NtscApp:audio_filtering:379 - Process audio: True
+2026-04-20 23:02:41.988 | DEBUG    | app.funcs:pick_save_file:18 - Save picked as: ('C:/Users/cavas/Desktop/tet.mp4', 'File .mp4 (*.mp4)')
+2026-04-20 23:02:41.989 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] Terminating prev renderer
+2026-04-20 23:02:41.989 | DEBUG    | app.NtscApp:setup_renderer:293 - Terminating prev renderer
+2026-04-20 23:02:41.989 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] Waiting prev renderer
+2026-04-20 23:02:41.989 | DEBUG    | app.NtscApp:setup_renderer:296 - Waiting prev renderer
+2026-04-20 23:02:42.189 | DEBUG    | app.NtscApp:lossless_exporting:364 - Lossless: False
+2026-04-20 23:02:42.189 | DEBUG    | app.NtscApp:audio_filtering:379 - Process audio: True
+2026-04-20 23:02:42.197 | DEBUG    | app.Renderer:run:201 - Output video open result: True
+2026-04-20 23:02:42.197 | DEBUG    | app.Renderer:run:203 - Input video: C:\Users\cavas\Desktop\Akame ga Kill 1. Bölüm izle Anizle.mp4
+2026-04-20 23:02:42.198 | DEBUG    | app.Renderer:run:204 - Temp output: C:\Users\cavas\Desktop\tmp_tet.mkv
+2026-04-20 23:02:42.198 | DEBUG    | app.Renderer:run:205 - Output video: C:\Users\cavas\Desktop\tet.mp4
+2026-04-20 23:02:42.573 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 0/34241
+2026-04-20 23:02:42.844 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 1/34241
+2026-04-20 23:02:43.103 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 2/34241
+2026-04-20 23:02:43.301 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 3/34241
+2026-04-20 23:02:43.507 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 4/34241
+2026-04-20 23:02:43.721 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 5/34241
+2026-04-20 23:02:43.939 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 6/34241
+2026-04-20 23:02:44.150 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 7/34241
+2026-04-20 23:02:44.361 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 8/34241
+2026-04-20 23:02:44.560 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 9/34241
+2026-04-20 23:02:44.775 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 10/34241
+2026-04-20 23:02:44.990 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 11/34241
+2026-04-20 23:02:45.209 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 12/34241
+2026-04-20 23:02:45.424 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 13/34241
+2026-04-20 23:02:45.639 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 14/34241
+2026-04-20 23:02:45.856 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 15/34241
+2026-04-20 23:02:46.073 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 16/34241
+2026-04-20 23:02:46.280 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 17/34241
+2026-04-20 23:02:46.496 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 18/34241
+2026-04-20 23:02:46.709 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 19/34241
+2026-04-20 23:02:46.929 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 20/34241
+2026-04-20 23:02:47.139 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 21/34241
+2026-04-20 23:02:47.350 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 22/34241
+2026-04-20 23:02:47.554 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 23/34241
+2026-04-20 23:02:47.756 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 24/34241
+2026-04-20 23:02:47.957 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 25/34241
+2026-04-20 23:02:48.168 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 26/34241
+2026-04-20 23:02:48.375 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 27/34241
+2026-04-20 23:02:48.581 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 28/34241
+2026-04-20 23:02:48.804 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 29/34241
+2026-04-20 23:02:49.016 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 30/34241
+2026-04-20 23:02:49.220 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 31/34241
+2026-04-20 23:02:49.454 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 32/34241
+2026-04-20 23:02:49.660 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 33/34241
+2026-04-20 23:02:49.853 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 34/34241
+2026-04-20 23:02:50.048 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 35/34241
+2026-04-20 23:02:50.242 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 36/34241
+2026-04-20 23:02:50.435 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 37/34241
+2026-04-20 23:02:50.625 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 38/34241
+2026-04-20 23:02:50.817 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 39/34241
+2026-04-20 23:02:51.007 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 40/34241
+2026-04-20 23:02:51.201 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 41/34241
+2026-04-20 23:02:51.395 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 42/34241
+2026-04-20 23:02:51.670 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 43/34241
+2026-04-20 23:02:51.814 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 44/34241
+2026-04-20 23:02:52.015 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 45/34241
+2026-04-20 23:02:52.229 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 46/34241
+2026-04-20 23:02:52.439 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 47/34241
+2026-04-20 23:02:52.654 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 48/34241
+2026-04-20 23:02:52.868 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 49/34241
+2026-04-20 23:02:53.083 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 50/34241
+2026-04-20 23:02:53.286 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 51/34241
+2026-04-20 23:02:53.493 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 52/34241
+2026-04-20 23:02:53.699 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 53/34241
+2026-04-20 23:02:53.913 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 54/34241
+2026-04-20 23:02:54.123 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 55/34241
+2026-04-20 23:02:54.332 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 56/34241
+2026-04-20 23:02:54.549 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 57/34241
+2026-04-20 23:02:54.770 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 58/34241
+2026-04-20 23:02:54.980 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 59/34241
+2026-04-20 23:02:55.201 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 60/34241
+2026-04-20 23:02:55.410 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 61/34241
+2026-04-20 23:02:55.617 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 62/34241
+2026-04-20 23:02:55.832 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 63/34241
+2026-04-20 23:02:56.042 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 64/34241
+2026-04-20 23:02:56.271 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 65/34241
+2026-04-20 23:02:56.481 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 66/34241
+2026-04-20 23:02:56.693 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 67/34241
+2026-04-20 23:02:56.903 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 68/34241
+2026-04-20 23:02:57.121 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 69/34241
+2026-04-20 23:02:57.336 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 70/34241
+2026-04-20 23:02:57.538 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 71/34241
+2026-04-20 23:02:57.753 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 72/34241
+2026-04-20 23:02:57.969 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 73/34241
+2026-04-20 23:02:58.191 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 74/34241
+2026-04-20 23:02:58.408 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 75/34241
+2026-04-20 23:02:58.620 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 76/34241
+2026-04-20 23:02:58.837 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 77/34241
+2026-04-20 23:02:59.043 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 78/34241
+2026-04-20 23:02:59.254 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 79/34241
+2026-04-20 23:02:59.463 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 80/34241
+2026-04-20 23:02:59.673 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 81/34241
+2026-04-20 23:02:59.878 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 82/34241
+2026-04-20 23:03:00.089 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 83/34241
+2026-04-20 23:03:00.311 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 84/34241
+2026-04-20 23:03:00.565 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 85/34241
+2026-04-20 23:03:00.768 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 86/34241
+2026-04-20 23:03:00.983 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 87/34241
+2026-04-20 23:03:01.200 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 88/34241
+2026-04-20 23:03:01.409 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 89/34241
+2026-04-20 23:03:01.622 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 90/34241
+2026-04-20 23:03:01.827 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 91/34241
+2026-04-20 23:03:02.026 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 92/34241
+2026-04-20 23:03:02.242 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 93/34241
+2026-04-20 23:03:02.450 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 94/34241
+2026-04-20 23:03:02.664 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 95/34241
+2026-04-20 23:03:02.879 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 96/34241
+2026-04-20 23:03:03.093 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 97/34241
+2026-04-20 23:03:03.312 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 98/34241
+2026-04-20 23:03:03.525 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 99/34241
+2026-04-20 23:03:03.734 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 100/34241
+2026-04-20 23:03:03.952 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 101/34241
+2026-04-20 23:03:04.166 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 102/34241
+2026-04-20 23:03:04.379 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 103/34241
+2026-04-20 23:03:04.600 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 104/34241
+2026-04-20 23:03:04.807 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 105/34241
+2026-04-20 23:03:05.010 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 106/34241
+2026-04-20 23:03:05.235 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 107/34241
+2026-04-20 23:03:05.453 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 108/34241
+2026-04-20 23:03:05.671 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 109/34241
+2026-04-20 23:03:05.877 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 110/34241
+2026-04-20 23:03:06.080 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 111/34241
+2026-04-20 23:03:06.294 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 112/34241
+2026-04-20 23:03:06.513 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 113/34241
+2026-04-20 23:03:06.716 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 114/34241
+2026-04-20 23:03:06.922 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 115/34241
+2026-04-20 23:03:07.129 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 116/34241
+2026-04-20 23:03:07.350 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 117/34241
+2026-04-20 23:03:07.567 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 118/34241
+2026-04-20 23:03:07.767 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 119/34241
+2026-04-20 23:03:07.967 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 120/34241
+2026-04-20 23:03:08.167 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 121/34241
+2026-04-20 23:03:08.372 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 122/34241
+2026-04-20 23:03:08.591 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 123/34241
+2026-04-20 23:03:08.801 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 124/34241
+2026-04-20 23:03:09.011 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 125/34241
+2026-04-20 23:03:09.222 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 126/34241
+2026-04-20 23:03:09.433 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 127/34241
+2026-04-20 23:03:09.661 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 128/34241
+2026-04-20 23:03:09.871 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 129/34241
+2026-04-20 23:03:10.076 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 130/34241
+2026-04-20 23:03:10.276 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 131/34241
+2026-04-20 23:03:10.482 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 132/34241
+2026-04-20 23:03:10.695 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 133/34241
+2026-04-20 23:03:10.901 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 134/34241
+2026-04-20 23:03:11.110 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 135/34241
+2026-04-20 23:03:11.311 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 136/34241
+2026-04-20 23:03:11.524 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 137/34241
+2026-04-20 23:03:11.735 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 138/34241
+2026-04-20 23:03:11.942 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 139/34241
+2026-04-20 23:03:12.150 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 140/34241
+2026-04-20 23:03:12.360 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 141/34241
+2026-04-20 23:03:12.582 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 142/34241
+2026-04-20 23:03:12.795 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 143/34241
+2026-04-20 23:03:13.008 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 144/34241
+2026-04-20 23:03:13.219 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 145/34241
+2026-04-20 23:03:13.442 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 146/34241
+2026-04-20 23:03:13.668 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 147/34241
+2026-04-20 23:03:13.901 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 148/34241
+2026-04-20 23:03:14.118 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 149/34241
+2026-04-20 23:03:14.340 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 150/34241
+2026-04-20 23:03:14.559 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 151/34241
+2026-04-20 23:03:14.781 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 152/34241
+2026-04-20 23:03:14.999 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 153/34241
+2026-04-20 23:03:15.211 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 154/34241
+2026-04-20 23:03:15.411 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 155/34241
+2026-04-20 23:03:15.629 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 156/34241
+2026-04-20 23:03:15.838 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 157/34241
+2026-04-20 23:03:16.062 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 158/34241
+2026-04-20 23:03:16.268 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 159/34241
+2026-04-20 23:03:16.480 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 160/34241
+2026-04-20 23:03:16.700 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 161/34241
+2026-04-20 23:03:16.908 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 162/34241
+2026-04-20 23:03:17.122 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 163/34241
+2026-04-20 23:03:17.330 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 164/34241
+2026-04-20 23:03:17.538 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 165/34241
+2026-04-20 23:03:17.752 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 166/34241
+2026-04-20 23:03:17.958 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 167/34241
+2026-04-20 23:03:18.180 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 168/34241
+2026-04-20 23:03:18.387 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 169/34241
+2026-04-20 23:03:18.601 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 170/34241
+2026-04-20 23:03:18.820 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 171/34241
+2026-04-20 23:03:19.029 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 172/34241
+2026-04-20 23:03:19.244 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 173/34241
+2026-04-20 23:03:19.445 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 174/34241
+2026-04-20 23:03:19.650 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 175/34241
+2026-04-20 23:03:19.859 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 176/34241
+2026-04-20 23:03:20.065 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 177/34241
+2026-04-20 23:03:20.291 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 178/34241
+2026-04-20 23:03:20.500 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 179/34241
+2026-04-20 23:03:20.733 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 180/34241
+2026-04-20 23:03:20.942 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 181/34241
+2026-04-20 23:03:21.146 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 182/34241
+2026-04-20 23:03:21.357 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 183/34241
+2026-04-20 23:03:21.561 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 184/34241
+2026-04-20 23:03:21.777 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 185/34241
+2026-04-20 23:03:21.987 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 186/34241
+2026-04-20 23:03:22.196 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 187/34241
+2026-04-20 23:03:22.408 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 188/34241
+2026-04-20 23:03:22.630 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 189/34241
+2026-04-20 23:03:22.834 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 190/34241
+2026-04-20 23:03:23.035 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 191/34241
+2026-04-20 23:03:23.236 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 192/34241
+2026-04-20 23:03:23.450 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 193/34241
+2026-04-20 23:03:23.666 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 194/34241
+2026-04-20 23:03:23.879 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 195/34241
+2026-04-20 23:03:24.092 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 196/34241
+2026-04-20 23:03:24.312 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 197/34241
+2026-04-20 23:03:24.565 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 198/34241
+2026-04-20 23:03:24.804 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 199/34241
+2026-04-20 23:03:25.035 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 200/34241
+2026-04-20 23:03:25.279 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 201/34241
+2026-04-20 23:03:25.523 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 202/34241
+2026-04-20 23:03:25.779 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 203/34241
+2026-04-20 23:03:26.104 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 204/34241
+2026-04-20 23:03:26.369 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 205/34241
+2026-04-20 23:03:26.611 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 206/34241
+2026-04-20 23:03:26.845 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 207/34241
+2026-04-20 23:03:27.063 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 208/34241
+2026-04-20 23:03:27.288 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 209/34241
+2026-04-20 23:03:27.528 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 210/34241
+2026-04-20 23:03:27.774 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 211/34241
+2026-04-20 23:03:27.991 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 212/34241
+2026-04-20 23:03:28.217 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 213/34241
+2026-04-20 23:03:28.462 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 214/34241
+2026-04-20 23:03:28.682 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 215/34241
+2026-04-20 23:03:28.923 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 216/34241
+2026-04-20 23:03:29.151 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 217/34241
+2026-04-20 23:03:29.367 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 218/34241
+2026-04-20 23:03:29.580 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 219/34241
+2026-04-20 23:03:29.798 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 220/34241
+2026-04-20 23:03:30.024 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 221/34241
+2026-04-20 23:03:30.249 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 222/34241
+2026-04-20 23:03:30.492 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 223/34241
+2026-04-20 23:03:30.721 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 224/34241
+2026-04-20 23:03:30.968 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 225/34241
+2026-04-20 23:03:31.212 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 226/34241
+2026-04-20 23:03:31.446 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 227/34241
+2026-04-20 23:03:31.680 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 228/34241
+2026-04-20 23:03:31.925 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 229/34241
+2026-04-20 23:03:32.175 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 230/34241
+2026-04-20 23:03:32.408 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 231/34241
+2026-04-20 23:03:32.639 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 232/34241
+2026-04-20 23:03:32.879 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 233/34241
+2026-04-20 23:03:33.133 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 234/34241
+2026-04-20 23:03:33.378 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 235/34241
+2026-04-20 23:03:33.620 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 236/34241
+2026-04-20 23:03:33.872 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 237/34241
+2026-04-20 23:03:34.113 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 238/34241
+2026-04-20 23:03:34.367 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 239/34241
+2026-04-20 23:03:34.595 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 240/34241
+2026-04-20 23:03:34.834 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 241/34241
+2026-04-20 23:03:35.104 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 242/34241
+2026-04-20 23:03:35.355 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 243/34241
+2026-04-20 23:03:35.641 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 244/34241
+2026-04-20 23:03:35.915 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 245/34241
+2026-04-20 23:03:36.183 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 246/34241
+2026-04-20 23:03:36.438 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 247/34241
+2026-04-20 23:03:36.688 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 248/34241
+2026-04-20 23:03:36.930 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 249/34241
+2026-04-20 23:03:37.180 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 250/34241
+2026-04-20 23:03:37.394 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 251/34241
+2026-04-20 23:03:37.607 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 252/34241
+2026-04-20 23:03:37.806 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 253/34241
+2026-04-20 23:03:38.015 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 254/34241
+2026-04-20 23:03:38.217 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 255/34241
+2026-04-20 23:03:38.410 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 256/34241
+2026-04-20 23:03:38.617 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 257/34241
+2026-04-20 23:03:38.897 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 258/34241
+2026-04-20 23:03:39.154 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 259/34241
+2026-04-20 23:03:39.421 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 260/34241
+2026-04-20 23:03:39.657 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 261/34241
+2026-04-20 23:03:39.886 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 262/34241
+2026-04-20 23:03:40.111 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 263/34241
+2026-04-20 23:03:40.329 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 264/34241
+2026-04-20 23:03:40.561 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 265/34241
+2026-04-20 23:03:40.859 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 266/34241
+2026-04-20 23:03:41.103 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 267/34241
+2026-04-20 23:03:41.348 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 268/34241
+2026-04-20 23:03:41.588 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 269/34241
+2026-04-20 23:03:41.841 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 270/34241
+2026-04-20 23:03:42.105 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 271/34241
+2026-04-20 23:03:42.342 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 272/34241
+2026-04-20 23:03:42.594 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 273/34241
+2026-04-20 23:03:42.822 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 274/34241
+2026-04-20 23:03:43.065 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 275/34241
+2026-04-20 23:03:43.292 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 276/34241
+2026-04-20 23:03:43.526 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 277/34241
+2026-04-20 23:03:43.755 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 278/34241
+2026-04-20 23:03:43.988 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 279/34241
+2026-04-20 23:03:44.212 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 280/34241
+2026-04-20 23:03:44.434 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 281/34241
+2026-04-20 23:03:44.649 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 282/34241
+2026-04-20 23:03:44.872 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 283/34241
+2026-04-20 23:03:45.092 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 284/34241
+2026-04-20 23:03:45.302 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 285/34241
+2026-04-20 23:03:45.518 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 286/34241
+2026-04-20 23:03:45.738 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 287/34241
+2026-04-20 23:03:45.972 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 288/34241
+2026-04-20 23:03:46.188 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 289/34241
+2026-04-20 23:03:46.405 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 290/34241
+2026-04-20 23:03:46.627 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 291/34241
+2026-04-20 23:03:46.840 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 292/34241
+2026-04-20 23:03:47.064 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 293/34241
+2026-04-20 23:03:47.279 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 294/34241
+2026-04-20 23:03:47.489 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 295/34241
+2026-04-20 23:03:47.700 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 296/34241
+2026-04-20 23:03:47.921 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 297/34241
+2026-04-20 23:03:48.158 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 298/34241
+2026-04-20 23:03:48.388 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 299/34241
+2026-04-20 23:03:48.598 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 300/34241
+2026-04-20 23:03:48.818 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 301/34241
+2026-04-20 23:03:49.042 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 302/34241
+2026-04-20 23:03:49.272 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 303/34241
+2026-04-20 23:03:49.489 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 304/34241
+2026-04-20 23:03:49.705 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 305/34241
+2026-04-20 23:03:49.922 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 306/34241
+2026-04-20 23:03:50.151 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 307/34241
+2026-04-20 23:03:50.376 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 308/34241
+2026-04-20 23:03:50.587 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 309/34241
+2026-04-20 23:03:50.804 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 310/34241
+2026-04-20 23:03:51.020 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 311/34241
+2026-04-20 23:03:51.259 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 312/34241
+2026-04-20 23:03:51.481 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 313/34241
+2026-04-20 23:03:51.696 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 314/34241
+2026-04-20 23:03:51.917 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 315/34241
+2026-04-20 23:03:52.137 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 316/34241
+2026-04-20 23:03:52.425 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 317/34241
+2026-04-20 23:03:52.644 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 318/34241
+2026-04-20 23:03:52.855 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 319/34241
+2026-04-20 23:03:53.068 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 320/34241
+2026-04-20 23:03:53.290 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 321/34241
+2026-04-20 23:03:53.519 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 322/34241
+2026-04-20 23:03:53.738 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 323/34241
+2026-04-20 23:03:53.954 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 324/34241
+2026-04-20 23:03:54.178 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 325/34241
+2026-04-20 23:03:54.421 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 326/34241
+2026-04-20 23:03:54.645 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 327/34241
+2026-04-20 23:03:54.868 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 328/34241
+2026-04-20 23:03:55.088 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 329/34241
+2026-04-20 23:03:55.318 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 330/34241
+2026-04-20 23:03:55.536 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 331/34241
+2026-04-20 23:03:55.755 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 332/34241
+2026-04-20 23:03:55.978 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 333/34241
+2026-04-20 23:03:56.205 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 334/34241
+2026-04-20 23:03:56.440 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 335/34241
+2026-04-20 23:03:56.669 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 336/34241
+2026-04-20 23:03:56.883 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 337/34241
+2026-04-20 23:03:57.091 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 338/34241
+2026-04-20 23:03:57.313 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 339/34241
+2026-04-20 23:03:57.549 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 340/34241
+2026-04-20 23:03:57.779 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 341/34241
+2026-04-20 23:03:57.994 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 342/34241
+2026-04-20 23:03:58.217 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 343/34241
+2026-04-20 23:03:58.437 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 344/34241
+2026-04-20 23:03:58.668 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 345/34241
+2026-04-20 23:03:58.896 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 346/34241
+2026-04-20 23:03:59.105 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 347/34241
+2026-04-20 23:03:59.336 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 348/34241
+2026-04-20 23:03:59.552 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 349/34241
+2026-04-20 23:03:59.778 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 350/34241
+2026-04-20 23:04:00.021 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 351/34241
+2026-04-20 23:04:00.247 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 352/34241
+2026-04-20 23:04:00.468 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 353/34241
+2026-04-20 23:04:00.689 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 354/34241
+2026-04-20 23:04:00.909 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 355/34241
+2026-04-20 23:04:01.146 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 356/34241
+2026-04-20 23:04:01.358 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 357/34241
+2026-04-20 23:04:01.591 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 358/34241
+2026-04-20 23:04:01.818 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 359/34241
+2026-04-20 23:04:02.043 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 360/34241
+2026-04-20 23:04:02.258 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 361/34241
+2026-04-20 23:04:02.488 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 362/34241
+2026-04-20 23:04:02.706 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 363/34241
+2026-04-20 23:04:02.923 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 364/34241
+2026-04-20 23:04:03.145 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 365/34241
+2026-04-20 23:04:03.354 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 366/34241
+2026-04-20 23:04:03.586 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 367/34241
+2026-04-20 23:04:03.808 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 368/34241
+2026-04-20 23:04:04.039 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 369/34241
+2026-04-20 23:04:04.266 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 370/34241
+2026-04-20 23:04:04.487 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 371/34241
+2026-04-20 23:04:04.703 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 372/34241
+2026-04-20 23:04:04.915 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 373/34241
+2026-04-20 23:04:05.135 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 374/34241
+2026-04-20 23:04:05.371 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 375/34241
+2026-04-20 23:04:05.587 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 376/34241
+2026-04-20 23:04:05.799 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 377/34241
+2026-04-20 23:04:06.013 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 378/34241
+2026-04-20 23:04:06.239 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 379/34241
+2026-04-20 23:04:06.468 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 380/34241
+2026-04-20 23:04:06.688 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 381/34241
+2026-04-20 23:04:06.907 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 382/34241
+2026-04-20 23:04:07.119 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 383/34241
+2026-04-20 23:04:07.337 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 384/34241
+2026-04-20 23:04:07.560 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 385/34241
+2026-04-20 23:04:07.773 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 386/34241
+2026-04-20 23:04:07.990 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 387/34241
+2026-04-20 23:04:08.207 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 388/34241
+2026-04-20 23:04:08.441 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 389/34241
+2026-04-20 23:04:08.659 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 390/34241
+2026-04-20 23:04:08.877 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 391/34241
+2026-04-20 23:04:09.095 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 392/34241
+2026-04-20 23:04:09.323 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 393/34241
+2026-04-20 23:04:09.544 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 394/34241
+2026-04-20 23:04:09.791 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 395/34241
+2026-04-20 23:04:10.017 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 396/34241
+2026-04-20 23:04:10.256 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 397/34241
+2026-04-20 23:04:10.507 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 398/34241
+2026-04-20 23:04:10.771 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 399/34241
+2026-04-20 23:04:10.995 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 400/34241
+2026-04-20 23:04:11.237 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 401/34241
+2026-04-20 23:04:11.477 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 402/34241
+2026-04-20 23:04:11.725 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 403/34241
+2026-04-20 23:04:11.945 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 404/34241
+2026-04-20 23:04:12.177 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 405/34241
+2026-04-20 23:04:12.396 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 406/34241
+2026-04-20 23:04:12.627 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 407/34241
+2026-04-20 23:04:12.859 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 408/34241
+2026-04-20 23:04:13.076 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 409/34241
+2026-04-20 23:04:13.296 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 410/34241
+2026-04-20 23:04:13.513 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 411/34241
+2026-04-20 23:04:13.727 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 412/34241
+2026-04-20 23:04:13.979 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 413/34241
+2026-04-20 23:04:14.215 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 414/34241
+2026-04-20 23:04:14.458 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 415/34241
+2026-04-20 23:04:14.696 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 416/34241
+2026-04-20 23:04:14.938 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 417/34241
+2026-04-20 23:04:15.179 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 418/34241
+2026-04-20 23:04:15.418 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 419/34241
+2026-04-20 23:04:15.663 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 420/34241
+2026-04-20 23:04:15.892 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 421/34241
+2026-04-20 23:04:16.106 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 422/34241
+2026-04-20 23:04:16.355 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 423/34241
+2026-04-20 23:04:16.600 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 424/34241
+2026-04-20 23:04:16.821 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 425/34241
+2026-04-20 23:04:17.050 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 426/34241
+2026-04-20 23:04:17.277 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 427/34241
+2026-04-20 23:04:17.508 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 428/34241
+2026-04-20 23:04:17.728 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 429/34241
+2026-04-20 23:04:17.959 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 430/34241
+2026-04-20 23:04:18.174 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 431/34241
+2026-04-20 23:04:18.386 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 432/34241
+2026-04-20 23:04:18.598 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 433/34241
+2026-04-20 23:04:18.821 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 434/34241
+2026-04-20 23:04:19.044 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 435/34241
+2026-04-20 23:04:19.266 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 436/34241
+2026-04-20 23:04:19.484 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 437/34241
+2026-04-20 23:04:19.699 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 438/34241
+2026-04-20 23:04:19.928 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 439/34241
+2026-04-20 23:04:20.139 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 440/34241
+2026-04-20 23:04:20.363 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 441/34241
+2026-04-20 23:04:20.572 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 442/34241
+2026-04-20 23:04:20.788 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 443/34241
+2026-04-20 23:04:21.027 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 444/34241
+2026-04-20 23:04:21.266 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 445/34241
+2026-04-20 23:04:21.498 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 446/34241
+2026-04-20 23:04:21.727 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 447/34241
+2026-04-20 23:04:21.972 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 448/34241
+2026-04-20 23:04:22.236 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 449/34241
+2026-04-20 23:04:22.480 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 450/34241
+2026-04-20 23:04:22.723 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 451/34241
+2026-04-20 23:04:22.970 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 452/34241
+2026-04-20 23:04:23.196 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 453/34241
+2026-04-20 23:04:23.419 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 454/34241
+2026-04-20 23:04:23.634 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 455/34241
+2026-04-20 23:04:23.855 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 456/34241
+2026-04-20 23:04:24.090 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 457/34241
+2026-04-20 23:04:24.334 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 458/34241
+2026-04-20 23:04:24.576 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 459/34241
+2026-04-20 23:04:24.807 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 460/34241
+2026-04-20 23:04:25.034 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 461/34241
+2026-04-20 23:04:25.272 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 462/34241
+2026-04-20 23:04:25.475 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 463/34241
+2026-04-20 23:04:25.687 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 464/34241
+2026-04-20 23:04:25.835 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _vhs_out_sharpen to 4
+2026-04-20 23:04:25.904 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 465/34241
+2026-04-20 23:04:26.117 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 466/34241
+2026-04-20 23:04:26.336 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 467/34241
+2026-04-20 23:04:26.543 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 468/34241
+2026-04-20 23:04:26.756 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 469/34241
+2026-04-20 23:04:26.978 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 470/34241
+2026-04-20 23:04:27.195 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 471/34241
+2026-04-20 23:04:27.410 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 472/34241
+2026-04-20 23:04:27.618 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 473/34241
+2026-04-20 23:04:27.703 | DEBUG    | app.NtscApp:value_changed_slot:443 - Set _vhs_out_sharpen to 3
+2026-04-20 23:04:27.836 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 474/34241
+2026-04-20 23:04:28.055 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 475/34241
+2026-04-20 23:04:28.268 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 476/34241
+2026-04-20 23:04:28.496 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 477/34241
+2026-04-20 23:04:28.709 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 478/34241
+2026-04-20 23:04:28.920 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 479/34241
+2026-04-20 23:04:29.130 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 480/34241
+2026-04-20 23:04:29.347 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 481/34241
+2026-04-20 23:04:29.574 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 482/34241
+2026-04-20 23:04:29.780 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 483/34241
+2026-04-20 23:04:29.986 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 484/34241
+2026-04-20 23:04:30.195 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 485/34241
+2026-04-20 23:04:30.409 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 486/34241
+2026-04-20 23:04:30.626 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 487/34241
+2026-04-20 23:04:30.841 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 488/34241
+2026-04-20 23:04:31.046 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 489/34241
+2026-04-20 23:04:31.265 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 490/34241
+2026-04-20 23:04:31.486 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 491/34241
+2026-04-20 23:04:31.707 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 492/34241
+2026-04-20 23:04:31.928 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 493/34241
+2026-04-20 23:04:32.152 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 494/34241
+2026-04-20 23:04:32.379 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 495/34241
+2026-04-20 23:04:32.596 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 496/34241
+2026-04-20 23:04:32.825 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 497/34241
+2026-04-20 23:04:33.040 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 498/34241
+2026-04-20 23:04:33.245 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 499/34241
+2026-04-20 23:04:33.461 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 500/34241
+2026-04-20 23:04:33.664 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 501/34241
+2026-04-20 23:04:33.880 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 502/34241
+2026-04-20 23:04:34.087 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 503/34241
+2026-04-20 23:04:34.303 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 504/34241
+2026-04-20 23:04:34.507 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 505/34241
+2026-04-20 23:04:34.719 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 506/34241
+2026-04-20 23:04:34.938 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 507/34241
+2026-04-20 23:04:35.167 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 508/34241
+2026-04-20 23:04:35.383 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 509/34241
+2026-04-20 23:04:35.591 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 510/34241
+2026-04-20 23:04:35.807 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 511/34241
+2026-04-20 23:04:36.017 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 512/34241
+2026-04-20 23:04:36.227 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 513/34241
+2026-04-20 23:04:36.450 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 514/34241
+2026-04-20 23:04:36.664 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 515/34241
+2026-04-20 23:04:36.889 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 516/34241
+2026-04-20 23:04:37.107 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 517/34241
+2026-04-20 23:04:37.328 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 518/34241
+2026-04-20 23:04:37.544 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 519/34241
+2026-04-20 23:04:37.750 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 520/34241
+2026-04-20 23:04:37.954 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 521/34241
+2026-04-20 23:04:38.158 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 522/34241
+2026-04-20 23:04:38.385 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 523/34241
+2026-04-20 23:04:38.606 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 524/34241
+2026-04-20 23:04:38.818 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 525/34241
+2026-04-20 23:04:39.037 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 526/34241
+2026-04-20 23:04:39.257 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 527/34241
+2026-04-20 23:04:39.473 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 528/34241
+2026-04-20 23:04:39.683 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 529/34241
+2026-04-20 23:04:39.901 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 530/34241
+2026-04-20 23:04:40.106 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 531/34241
+2026-04-20 23:04:40.324 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 532/34241
+2026-04-20 23:04:40.542 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 533/34241
+2026-04-20 23:04:40.757 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 534/34241
+2026-04-20 23:04:40.977 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 535/34241
+2026-04-20 23:04:41.191 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 536/34241
+2026-04-20 23:04:41.407 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 537/34241
+2026-04-20 23:04:41.642 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 538/34241
+2026-04-20 23:04:41.857 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 539/34241
+2026-04-20 23:04:42.081 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 540/34241
+2026-04-20 23:04:42.310 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 541/34241
+2026-04-20 23:04:42.520 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 542/34241
+2026-04-20 23:04:42.748 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 543/34241
+2026-04-20 23:04:42.959 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 544/34241
+2026-04-20 23:04:43.188 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 545/34241
+2026-04-20 23:04:43.407 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 546/34241
+2026-04-20 23:04:43.617 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 547/34241
+2026-04-20 23:04:43.835 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 548/34241
+2026-04-20 23:04:44.046 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 549/34241
+2026-04-20 23:04:44.256 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 550/34241
+2026-04-20 23:04:44.478 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 551/34241
+2026-04-20 23:04:44.692 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 552/34241
+2026-04-20 23:04:44.897 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 553/34241
+2026-04-20 23:04:45.111 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 554/34241
+2026-04-20 23:04:45.326 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 555/34241
+2026-04-20 23:04:45.541 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 556/34241
+2026-04-20 23:04:45.758 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 557/34241
+2026-04-20 23:04:45.976 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 558/34241
+2026-04-20 23:04:46.197 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 559/34241
+2026-04-20 23:04:46.407 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 560/34241
+2026-04-20 23:04:46.623 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 561/34241
+2026-04-20 23:04:46.840 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 562/34241
+2026-04-20 23:04:47.046 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 563/34241
+2026-04-20 23:04:47.263 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 564/34241
+2026-04-20 23:04:47.472 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 565/34241
+2026-04-20 23:04:47.687 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 566/34241
+2026-04-20 23:04:47.903 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 567/34241
+2026-04-20 23:04:48.116 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 568/34241
+2026-04-20 23:04:48.323 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 569/34241
+2026-04-20 23:04:48.531 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 570/34241
+2026-04-20 23:04:48.762 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 571/34241
+2026-04-20 23:04:48.970 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 572/34241
+2026-04-20 23:04:49.184 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 573/34241
+2026-04-20 23:04:49.388 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 574/34241
+2026-04-20 23:04:49.608 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 575/34241
+2026-04-20 23:04:49.830 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 576/34241
+2026-04-20 23:04:50.049 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 577/34241
+2026-04-20 23:04:50.278 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 578/34241
+2026-04-20 23:04:50.496 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 579/34241
+2026-04-20 23:04:50.717 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 580/34241
+2026-04-20 23:04:50.935 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 581/34241
+2026-04-20 23:04:51.152 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 582/34241
+2026-04-20 23:04:51.367 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 583/34241
+2026-04-20 23:04:51.584 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 584/34241
+2026-04-20 23:04:51.810 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 585/34241
+2026-04-20 23:04:52.049 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 586/34241
+2026-04-20 23:04:52.268 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 587/34241
+2026-04-20 23:04:52.516 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 588/34241
+2026-04-20 23:04:52.737 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 589/34241
+2026-04-20 23:04:52.964 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 590/34241
+2026-04-20 23:04:53.182 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 591/34241
+2026-04-20 23:04:53.406 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 592/34241
+2026-04-20 23:04:53.619 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 593/34241
+2026-04-20 23:04:53.845 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 594/34241
+2026-04-20 23:04:54.068 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 595/34241
+2026-04-20 23:04:54.286 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 596/34241
+2026-04-20 23:04:54.506 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 597/34241
+2026-04-20 23:04:54.721 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 598/34241
+2026-04-20 23:04:54.936 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 599/34241
+2026-04-20 23:04:55.159 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 600/34241
+2026-04-20 23:04:55.380 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 601/34241
+2026-04-20 23:04:55.586 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 602/34241
+2026-04-20 23:04:55.803 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 603/34241
+2026-04-20 23:04:56.013 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 604/34241
+2026-04-20 23:04:56.234 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 605/34241
+2026-04-20 23:04:56.453 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 606/34241
+2026-04-20 23:04:56.689 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 607/34241
+2026-04-20 23:04:56.917 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 608/34241
+2026-04-20 23:04:57.141 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 609/34241
+2026-04-20 23:04:57.360 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 610/34241
+2026-04-20 23:04:57.590 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 611/34241
+2026-04-20 23:04:57.808 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 612/34241
+2026-04-20 23:04:58.031 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 613/34241
+2026-04-20 23:04:58.244 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 614/34241
+2026-04-20 23:04:58.467 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 615/34241
+2026-04-20 23:04:58.689 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 616/34241
+2026-04-20 23:04:58.905 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 617/34241
+2026-04-20 23:04:59.116 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 618/34241
+2026-04-20 23:04:59.323 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 619/34241
+2026-04-20 23:04:59.537 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 620/34241
+2026-04-20 23:04:59.759 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 621/34241
+2026-04-20 23:04:59.971 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 622/34241
+2026-04-20 23:05:00.176 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 623/34241
+2026-04-20 23:05:00.403 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 624/34241
+2026-04-20 23:05:00.625 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 625/34241
+2026-04-20 23:05:00.848 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 626/34241
+2026-04-20 23:05:01.067 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 627/34241
+2026-04-20 23:05:01.286 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 628/34241
+2026-04-20 23:05:01.506 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 629/34241
+2026-04-20 23:05:01.729 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 630/34241
+2026-04-20 23:05:01.938 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 631/34241
+2026-04-20 23:05:02.147 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 632/34241
+2026-04-20 23:05:02.354 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 633/34241
+2026-04-20 23:05:02.576 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 634/34241
+2026-04-20 23:05:02.796 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 635/34241
+2026-04-20 23:05:03.011 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 636/34241
+2026-04-20 23:05:03.226 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 637/34241
+2026-04-20 23:05:03.440 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 638/34241
+2026-04-20 23:05:03.657 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 639/34241
+2026-04-20 23:05:03.879 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 640/34241
+2026-04-20 23:05:04.104 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 641/34241
+2026-04-20 23:05:04.327 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 642/34241
+2026-04-20 23:05:04.553 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 643/34241
+2026-04-20 23:05:04.782 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 644/34241
+2026-04-20 23:05:04.996 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 645/34241
+2026-04-20 23:05:05.229 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 646/34241
+2026-04-20 23:05:05.440 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 647/34241
+2026-04-20 23:05:05.657 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 648/34241
+2026-04-20 23:05:05.878 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 649/34241
+2026-04-20 23:05:06.087 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 650/34241
+2026-04-20 23:05:06.306 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 651/34241
+2026-04-20 23:05:06.525 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 652/34241
+2026-04-20 23:05:06.741 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 653/34241
+2026-04-20 23:05:06.958 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 654/34241
+2026-04-20 23:05:07.176 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 655/34241
+2026-04-20 23:05:07.397 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 656/34241
+2026-04-20 23:05:07.606 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 657/34241
+2026-04-20 23:05:07.830 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 658/34241
+2026-04-20 23:05:08.054 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 659/34241
+2026-04-20 23:05:08.265 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 660/34241
+2026-04-20 23:05:08.485 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 661/34241
+2026-04-20 23:05:08.706 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 662/34241
+2026-04-20 23:05:08.924 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 663/34241
+2026-04-20 23:05:09.136 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 664/34241
+2026-04-20 23:05:09.367 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 665/34241
+2026-04-20 23:05:09.581 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 666/34241
+2026-04-20 23:05:09.794 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 667/34241
+2026-04-20 23:05:10.016 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 668/34241
+2026-04-20 23:05:10.235 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 669/34241
+2026-04-20 23:05:10.445 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 670/34241
+2026-04-20 23:05:10.665 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 671/34241
+2026-04-20 23:05:10.885 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 672/34241
+2026-04-20 23:05:11.100 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 673/34241
+2026-04-20 23:05:11.301 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 674/34241
+2026-04-20 23:05:11.501 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 675/34241
+2026-04-20 23:05:11.702 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 676/34241
+2026-04-20 23:05:11.906 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 677/34241
+2026-04-20 23:05:12.135 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 678/34241
+2026-04-20 23:05:12.370 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 679/34241
+2026-04-20 23:05:12.591 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 680/34241
+2026-04-20 23:05:12.805 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 681/34241
+2026-04-20 23:05:13.023 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 682/34241
+2026-04-20 23:05:13.242 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 683/34241
+2026-04-20 23:05:13.468 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 684/34241
+2026-04-20 23:05:13.679 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 685/34241
+2026-04-20 23:05:13.905 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 686/34241
+2026-04-20 23:05:14.126 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 687/34241
+2026-04-20 23:05:14.332 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 688/34241
+2026-04-20 23:05:14.534 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 689/34241
+2026-04-20 23:05:14.749 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 690/34241
+2026-04-20 23:05:14.955 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 691/34241
+2026-04-20 23:05:15.172 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 692/34241
+2026-04-20 23:05:15.398 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 693/34241
+2026-04-20 23:05:15.645 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 694/34241
+2026-04-20 23:05:15.852 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 695/34241
+2026-04-20 23:05:16.067 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 696/34241
+2026-04-20 23:05:16.273 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 697/34241
+2026-04-20 23:05:16.476 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 698/34241
+2026-04-20 23:05:16.685 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 699/34241
+2026-04-20 23:05:16.890 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 700/34241
+2026-04-20 23:05:17.094 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 701/34241
+2026-04-20 23:05:17.310 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 702/34241
+2026-04-20 23:05:17.533 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 703/34241
+2026-04-20 23:05:17.741 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 704/34241
+2026-04-20 23:05:17.955 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 705/34241
+2026-04-20 23:05:18.175 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 706/34241
+2026-04-20 23:05:18.392 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 707/34241
+2026-04-20 23:05:18.617 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 708/34241
+2026-04-20 23:05:18.842 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 709/34241
+2026-04-20 23:05:19.054 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 710/34241
+2026-04-20 23:05:19.273 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 711/34241
+2026-04-20 23:05:19.494 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 712/34241
+2026-04-20 23:05:19.731 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 713/34241
+2026-04-20 23:05:19.968 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 714/34241
+2026-04-20 23:05:20.214 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 715/34241
+2026-04-20 23:05:20.436 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 716/34241
+2026-04-20 23:05:20.650 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 717/34241
+2026-04-20 23:05:20.861 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 718/34241
+2026-04-20 23:05:21.067 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 719/34241
+2026-04-20 23:05:21.285 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 720/34241
+2026-04-20 23:05:21.499 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 721/34241
+2026-04-20 23:05:22.109 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 722/34241
+2026-04-20 23:05:22.109 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 723/34241
+2026-04-20 23:05:22.214 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 724/34241
+2026-04-20 23:05:22.419 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 725/34241
+2026-04-20 23:05:22.608 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 726/34241
+2026-04-20 23:05:22.843 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 727/34241
+2026-04-20 23:05:23.049 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 728/34241
+2026-04-20 23:05:23.259 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 729/34241
+2026-04-20 23:05:23.465 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 730/34241
+2026-04-20 23:05:23.678 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 731/34241
+2026-04-20 23:05:23.881 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 732/34241
+2026-04-20 23:05:24.081 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 733/34241
+2026-04-20 23:05:24.295 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 734/34241
+2026-04-20 23:05:24.514 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 735/34241
+2026-04-20 23:05:24.730 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 736/34241
+2026-04-20 23:05:24.945 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 737/34241
+2026-04-20 23:05:25.652 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] Image saved: lþl.png
+2026-04-20 23:05:25.656 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 738/34241
+2026-04-20 23:05:25.656 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 739/34241
+2026-04-20 23:05:25.682 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 740/34241
+2026-04-20 23:05:25.896 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 741/34241
+2026-04-20 23:05:26.107 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 742/34241
+2026-04-20 23:05:26.328 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 743/34241
+2026-04-20 23:05:26.535 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 744/34241
+2026-04-20 23:05:26.746 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 745/34241
+2026-04-20 23:05:26.950 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 746/34241
+2026-04-20 23:05:27.165 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 747/34241
+2026-04-20 23:05:27.402 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 748/34241
+2026-04-20 23:05:27.626 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 749/34241
+2026-04-20 23:05:27.847 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 750/34241
+2026-04-20 23:05:28.065 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 751/34241
+2026-04-20 23:05:28.277 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 752/34241
+2026-04-20 23:05:28.493 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 753/34241
+2026-04-20 23:05:28.738 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 754/34241
+2026-04-20 23:05:28.962 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 755/34241
+2026-04-20 23:05:29.200 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 756/34241
+2026-04-20 23:05:29.444 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 757/34241
+2026-04-20 23:05:29.685 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 758/34241
+2026-04-20 23:05:29.929 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 759/34241
+2026-04-20 23:05:30.169 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 760/34241
+2026-04-20 23:05:30.450 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 761/34241
+2026-04-20 23:05:30.699 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 762/34241
+2026-04-20 23:05:30.936 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 763/34241
+2026-04-20 23:05:31.178 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 764/34241
+2026-04-20 23:05:31.426 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 765/34241
+2026-04-20 23:05:31.677 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 766/34241
+2026-04-20 23:05:31.917 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 767/34241
+2026-04-20 23:05:32.157 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 768/34241
+2026-04-20 23:05:32.409 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 769/34241
+2026-04-20 23:05:32.661 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 770/34241
+2026-04-20 23:05:32.905 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 771/34241
+2026-04-20 23:05:33.147 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 772/34241
+2026-04-20 23:05:33.364 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 773/34241
+2026-04-20 23:05:33.603 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 774/34241
+2026-04-20 23:05:33.821 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 775/34241
+2026-04-20 23:05:34.041 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 776/34241
+2026-04-20 23:05:34.266 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 777/34241
+2026-04-20 23:05:34.492 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 778/34241
+2026-04-20 23:05:34.725 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 779/34241
+2026-04-20 23:05:34.950 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 780/34241
+2026-04-20 23:05:35.166 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 781/34241
+2026-04-20 23:05:35.382 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 782/34241
+2026-04-20 23:05:35.617 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 783/34241
+2026-04-20 23:05:35.823 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 784/34241
+2026-04-20 23:05:36.017 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 785/34241
+2026-04-20 23:05:36.209 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 786/34241
+2026-04-20 23:05:36.399 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 787/34241
+2026-04-20 23:05:36.594 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 788/34241
+2026-04-20 23:05:36.808 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 789/34241
+2026-04-20 23:05:37.016 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 790/34241
+2026-04-20 23:05:37.222 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 791/34241
+2026-04-20 23:05:37.435 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [CV2] Render progress: 792/34241
+2026-04-20 23:05:37.440 | INFO     | app.Renderer:run:234 - Video end or render error [CV2] Render progress: 793/34241
+2026-04-20 23:05:37.440 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] Render stopped. ret(debug):
+2026-04-20 23:05:37.442 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [FFMPEG] Preparing audio filtering
+2026-04-20 23:05:38.253 | DEBUG    | app.Renderer:run:288 - output(acodec='pcm_s24le', filename='C:\\Users\\cavas\\Desktop/tmp_audio_tet.wav', shortest=None)[None] <4fae294f5723>
+2026-04-20 23:05:38.254 | DEBUG    | app.Renderer:run:289 - ffmpeg -i C:\Users\cavas\Desktop\Akame ga Kill 1. Bölüm izle Anizle.mp4 -f lavfi -t 1428.329070 -i aevalsrc=-2+random(0):sample_rate=44100:channel_layout=mono -filter_complex [0:a]volume=4.85713[s0];[s0]alimiter=limit=0.5[s1];[s1]volume=0.8[s2];[s2]firequalizer=gain=if(lt(f\,10308)\, 0\, -INF)[s3];[1][1]join=channel_layout=stereo:inputs=2[s4];[s4]volume=0.036264[s5];[s3][s5]amix[s6];[s6]firequalizer=gain=if(lt(f\,13301)\, 0\, -INF)[s7] -map [s7] -acodec pcm_s24le -shortest C:\Users\cavas\Desktop/tmp_audio_tet.wav
+2026-04-20 23:05:38.254 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [FFMPEG] Prepared audio filtering
+2026-04-20 23:05:38.255 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [FFMPEG] Starting audio filtering into C:\Users\cavas\Desktop/tmp_audio_tet.wav
+2026-04-20 23:05:41.951 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [FFMPEG] Finished audio filtering
+2026-04-20 23:05:41.952 | DEBUG    | app.Renderer:run:310 - output(acodec='copy', filename='C:\\Users\\cavas\\Desktop\\tet.mp4', shortest=None, vcodec='copy')[None] <128e34ca7614>
+2026-04-20 23:05:41.953 | DEBUG    | app.Renderer:run:311 - ffmpeg -i C:\Users\cavas\Desktop\tmp_tet.mkv -i C:\Users\cavas\Desktop/tmp_audio_tet.wav -map 0:v -map 1:a -acodec copy -shortest -vcodec copy C:\Users\cavas\Desktop\tet.mp4
+2026-04-20 23:05:42.690 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [FFMPEG] Audio copy done
+2026-04-20 23:05:43.023 | INFO     | app.NtscApp:update_status:391 - [GUI STATUS] [DONE] Render done

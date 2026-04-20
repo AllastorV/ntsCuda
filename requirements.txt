@@ -1,3 +1,8 @@
+# ntsCuda — all dependencies in one file.
+#
+# ============================================================
+#  Core (required on every platform)
+# ============================================================
 ffmpeg-python>=0.2.0
 future>=0.18.2
 imutils>=0.5.4
@@ -11,8 +16,51 @@ scipy>=1.7.3
 loguru~=0.5.3
 requests>=2.27.0
 
-# Optional GPU/CUDA acceleration (install one matching your CUDA version):
-# pip install cupy-cuda12x   # CUDA 12.x
-# pip install cupy-cuda11x   # CUDA 11.x
-# pip install cupy-cuda102   # CUDA 10.2
-# See requirements-cuda.txt for details
+# ============================================================
+#  GPU acceleration (optional — install ONE cupy wheel)
+# ============================================================
+# CuPy enables FFT / colour-space GPU speedups in app/ntsc.py.
+# Choose the wheel matching your CUDA toolkit:
+#
+#   CUDA 12.x:   pip install cupy-cuda12x
+#   CUDA 11.x:   pip install cupy-cuda11x
+#   CUDA 10.2:   pip install cupy-cuda102
+#
+# Check your CUDA version with:  nvcc --version   (or nvidia-smi)
+# No GPU? ntsCuda falls back to CPU mode automatically.
+
+# ============================================================
+#  Full CUDA pipeline (optional — app/pipeline_cuda.py)
+# ============================================================
+# Enables NVDEC decode, Triton-fused kernel, CUDA graphs and
+# NVENC encode. Needs all three packages below installed.
+#
+#   Linux (CUDA 12):
+#     pip install torch --index-url https://download.pytorch.org/whl/cu121
+#     pip install triton av
+#
+#   Windows (CUDA 12):
+#     pip install torch --index-url https://download.pytorch.org/whl/cu121
+#     pip install triton-windows av
+#
+# If any of these are missing the pipeline logs a warning and
+# transparently falls back to the DefaultRenderer path.
+
+# ============================================================
+#  macOS Apple Silicon (M1/M2/M3) pinned set
+# ============================================================
+# On Apple Silicon, install with these exact pins instead of the
+# looser constraints above (PyQt5 ships via the system pip wheel):
+#
+#   ffmpeg-python==0.2.0
+#   future==0.18.2
+#   imutils==0.5.4
+#   numpy==1.21.5
+#   darkdetect==0.5.1
+#   opencv-python-headless==4.5.5.62
+#   PyQt5-sip==12.9.0
+#   PyQt5-stubs==5.15.2.0
+#   loguru~=0.5.3
+#   requests==2.27.0
+#
+# GPU pipeline is unavailable on macOS (no CUDA).

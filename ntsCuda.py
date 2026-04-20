@@ -72,12 +72,17 @@ def main():
 
     window = NtscApp()
 
-    # Set window icon
-    icon_path = base_dir / 'ntsCuda_icon.ico'
-    if not icon_path.exists():
-        icon_path = base_dir / 'icon.png'
-    if icon_path.exists():
-        app.setWindowIcon(QtGui.QIcon(str(icon_path)))
+    # Set window icon (assets/ is the canonical location)
+    icon_candidates = [
+        base_dir / 'assets' / 'ntsCuda_icon.ico',
+        base_dir / 'assets' / 'icon.png',
+        base_dir / 'ntsCuda_icon.ico',   # legacy fallback for older layouts
+        base_dir / 'icon.png',
+    ]
+    for icon_path in icon_candidates:
+        if icon_path.exists():
+            app.setWindowIcon(QtGui.QIcon(str(icon_path)))
+            break
 
     is_dark = darkdetect.isDark()
     set_window_dark_titlebar(window, dark=is_dark)
